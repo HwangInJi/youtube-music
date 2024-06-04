@@ -1,8 +1,7 @@
-body {
-    background-color: var(--mainBg);
-    color: var(--black);
-}
-
-main {
-    min-height: 90vh;
+#main {
+    background-color: var(--white);
+    margin-left: 260px;
+    margin-right: 400px;
+    position: relative;
+    min-height: calc(100vh - 98px);
 }
