@@ -14,6 +14,7 @@
 
 ````bash
 npm install react-router-dom, axios, react-icons, react-player, sass, react-helmet-async, swiper
+npm i react-spinners
 ````
 
 ## src폴더에 폴더 추가 생성

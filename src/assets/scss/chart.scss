@@ -1,10 +1,31 @@
 .music-chart {
     padding: 0 2rem 2rem 2rem;
+    margin-top: 1.5rem;
+    position: relative;
 
     .title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.7rem;
+
         h2 {}
 
-        .date-picker {}
+        .date-picker {
+            svg {
+                vertical-align: -7px;
+                margin-right: 0.3rem;
+            }
+
+            span {
+                font-family: var(--fontH);
+                font-size: 18px;
+            }
+
+            button {
+                background-color: var(--white);
+                margin-top: 7px;
+            }
+        }
     }
 
     >.list {
@@ -24,10 +45,13 @@
                 font-family: var(--fontH);
                 font-weight: 700;
                 font-size: 18px;
+                background-color: #effaff;
 
                 .rank {
                     flex: 0 0 50px;
-                    color: var(--black700);
+                    color: #004968;
+                    font-family: var(--fontC);
+                    font-weight: bold;
                 }
 
                 .img {
@@ -46,16 +70,19 @@
 
                 .title {
                     flex: 1;
+                    color: #004968;
+                    padding-top: 0.7rem;
+                    font-size: 18px;
                 }
 
                 .album {
                     margin-left: auto;
-                    color: var(--black700);
-                    font-size: 14px;
+                    color: #004968;
+                    font-size: 16px;
                 }
 
                 &:hover {
-                    background-color: var(--white);
+                    background-color: #caeaf8;
 
                     .album {
                         color: var(--black100);
@@ -63,5 +90,17 @@
                 }
             }
         }
+    }
+
+    .search-results {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 400px;
+        background-color: #ccc;
+        z-index: 10000;
+        font-family: var(--fontH);
+        font-size: 20px;
     }
 }

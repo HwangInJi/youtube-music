@@ -1,75 +1,19 @@
-// seoulHangang
+// wooJu
 
 @font-face {
-    font-family: "seoulHangang";
-    font-weight: 300;
+    font-family: "wooJu";
+    font-weight: normal;
     font-style: normal;
-    src: url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-Light.eot");
-    src: url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-Light.eot?#iefix") format("embedded-opentype"),
-        url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-Light.woff2") format("woff2"),
-        url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-Light.woff") format("woff"),
-        url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-Light.ttf") format("truetype");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/wooJu/wooJu.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/wooJu/wooJu.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/wooJu/wooJu.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/wooJu/wooJu.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/wooJu/wooJu.ttf") format("truetype");
     font-display: swap;
 }
 
-@font-face {
-    font-family: "seoulHangang";
-    font-weight: 500;
-    font-style: normal;
-    src: url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-Medium.eot");
-    src: url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-Medium.eot?#iefix") format("embedded-opentype"),
-        url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-Medium.woff2") format("woff2"),
-        url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-Medium.woff") format("woff"),
-        url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-Medium.ttf") format("truetype");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "seoulHangang";
-    font-weight: 700;
-    font-style: normal;
-    src: url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-Bold.eot");
-    src: url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-Bold.eot?#iefix") format("embedded-opentype"),
-        url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-Bold.woff2") format("woff2"),
-        url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-Bold.woff") format("woff"),
-        url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-Bold.ttf") format("truetype");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "seoulHangang";
-    font-weight: 800;
-    font-style: normal;
-    src: url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-ExtraBold.eot");
-    src: url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-ExtraBold.eot?#iefix") format("embedded-opentype"),
-        url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-ExtraBold.woff2") format("woff2"),
-        url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-ExtraBold.woff") format("woff"),
-        url("https://cdn.jsdelivr.net/gh/websfont/seoulHangang/seoulHangang-ExtraBold.ttf") format("truetype");
-    font-display: swap;
-}
-
-.seoulHangang {
-    font-family: "seoulHangang";
-}
-
-.seoulHangang300 {
-    font-family: "seoulHangang";
-    font-weight: 300;
-}
-
-.seoulHangang500 {
-    font-family: "seoulHangang";
-    font-weight: 500;
-}
-
-.seoulHangang700 {
-    font-family: "seoulHangang";
-    font-weight: 700;
-}
-
-.seoulHangang800 {
-    font-family: "seoulHangang";
-    font-weight: 800;
+.wooJu {
+    font-family: "wooJu";
 }
 
 // cookieRun
