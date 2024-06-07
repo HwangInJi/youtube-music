@@ -82,7 +82,7 @@ const Aside = () => {
                         )}
                     </div>
                     <span className='title'>{currentTrack?.title || '선택된 노래가 없습니다.'}</span>
-                    <span className='artist'>{currentTrack?.artist || '😝 노래 클릭'}</span>
+                    <span className='artist'>{currentTrack?.artist || '선택된 노래가 없습니다'}</span>
                 </div>
                 <div className='progress'>
                     <div className='progress-bar'>
@@ -126,7 +126,9 @@ const Aside = () => {
                             className={index === currentIndex ? 'current-track' : ''}
                         >
                             <span className='img' style={{ backgroundImage: `url(${track.imageURL})` }}></span>
-                            <span className='title'>{track.title}</span>
+                            <span className='title'>{track.title}
+                                <span className='artist'>{track.artist}</span>
+                            </span>
                         </li>
                     ))}
                 </ul>

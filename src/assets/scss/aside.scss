@@ -183,6 +183,18 @@
                     display: -webkit-box;
                     -webkit-line-clamp: 2;
                     -webkit-box-orient: vertical;
+
+                    .artist {
+                        width: calc(100% - 80px);
+                        height: 45px;
+                        font-family: var(--fontH);
+                        font-weight: 300;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                    }
                 }
 
                 &:hover {
